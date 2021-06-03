@@ -63,7 +63,7 @@ export default class ProdutosList extends Component {
     const { produtos, currentProduto, currentIndex } = this.state;
 
     return (
-      <div className="list row">
+      <div className="grid row">
         <div className="col-md-6">
           <h4>Lista de Produtos</h4>
 
